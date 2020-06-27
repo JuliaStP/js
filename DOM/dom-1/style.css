@@ -1,0 +1,46 @@
+ul li {
+    list-style: none; 
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider {
+    display: flex;
+    width: 240px;
+    overflow: hidden;
+}
+
+.slider__list {
+    display: flex;
+    position: relative; 
+    right: 0;
+    transition: right 0.5;
+}
+
+.slider__item {
+    width: 80px;
+    height: 80px;
+    background-color: cadetblue;
+    box-sizing: border-box;
+    font-size: 50px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
